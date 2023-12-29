@@ -21,18 +21,18 @@ MongoDB is a NoSQL database that provides high performance, high availability, a
 ## What is the role of the WiredTiger storage engine in MongoDB?
    - WiredTiger is the default storage engine for MongoDB. It provides features like document-level concurrency control and compression, which contribute to improved performance and efficiency.
 
-8. **Explain the significance of the Oplog in MongoDB.
+## Explain the significance of the Oplog in MongoDB.
    - The Oplog (Operation Log) in MongoDB is a special collection that records all write operations that modify data. It is crucial for replication and maintaining data consistency across replica sets.
 
-9. **How can you secure MongoDB deployments?
+## How can you secure MongoDB deployments?
    - MongoDB can be secured through authentication, authorization, encryption, and other security measures. It's essential to configure access control, enable authentication mechanisms, and use SSL/TLS for encrypted communication.
 
-10. **Discuss the considerations for upgrading MongoDB.
+## Discuss the considerations for upgrading MongoDB.
     - Upgrading MongoDB involves careful planning. Considerations include checking compatibility, testing in a non-production environment, and having a rollback plan in case of issues.
 
-11. **Explain the steps involved in scaling a MongoDB database.
+## Explain the steps involved in scaling a MongoDB database.
     - Scaling MongoDB can be achieved through vertical scaling (upgrading hardware) or horizontal scaling (sharding). Understanding the application's requirements and choosing the appropriate scaling strategy is important.
 
-12. **How can you monitor and optimize MongoDB performance?
+## How can you monitor and optimize MongoDB performance?
     - Monitoring tools like MongoDB Cloud Manager or Ops Manager can be used to track performance metrics. Optimization involves index tuning, proper schema design, and understanding query execution plans.
 
