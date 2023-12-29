@@ -1,6 +1,6 @@
 
 ## What is MongoDB?
-   - MongoDB is a NoSQL database that provides high performance, high availability, and easy scalability. It stores data in flexible, JSON-like documents.
+MongoDB is a NoSQL database that provides high performance, high availability, and easy scalability. It stores data in flexible, JSON-like documents.
 MongoDB is a NoSQL database that provides high performance, high availability, and easy scalability. It stores data in flexible, JSON-like documents.
 
 ## Explain the difference between SQL and NoSQL databases.
@@ -28,7 +28,7 @@ The Oplog (Operation Log) in MongoDB is a special collection that records all wr
 MongoDB can be secured through authentication, authorization, encryption, and other security measures. It's essential to configure access control, enable authentication mechanisms, and use SSL/TLS for encrypted communication.
 
 ## Discuss the considerations for upgrading MongoDB.
-    - Upgrading MongoDB involves careful planning. Considerations include checking compatibility, testing in a non-production environment, and having a rollback plan in case of issues.
+Upgrading MongoDB involves careful planning. Considerations include checking compatibility, testing in a non-production environment, and having a rollback plan in case of issues.
 
 ## Explain the steps involved in scaling a MongoDB database.
 Scaling MongoDB can be achieved through vertical scaling (upgrading hardware) or horizontal scaling (sharding). Understanding the application's requirements and choosing the appropriate scaling strategy is important.
