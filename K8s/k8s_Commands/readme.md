@@ -150,6 +150,10 @@ kubectl port-forward: Forward one or more local ports to a pod.
 ```
 kubectl port-forward <pod-name> <local-port>:<pod-port>
 ```
+## Display Resource Usage (CPU and Memory) of Pods
+```
+kubectl top pods
+```
 
 
  [ kubectl reference  docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-deployment-em-)
