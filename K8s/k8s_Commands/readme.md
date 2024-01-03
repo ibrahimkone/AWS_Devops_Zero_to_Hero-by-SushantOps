@@ -103,12 +103,6 @@ kubectl exec -it <pod-name> -- /bin/sh
 kubectl logs <pod-name>
 ```
 
-# Display Resource Usage (CPU and Memory) of Pods
-```
-kubectl top pods
-```
-
-
 
  [ kubectl reference  docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-deployment-em-)
 
