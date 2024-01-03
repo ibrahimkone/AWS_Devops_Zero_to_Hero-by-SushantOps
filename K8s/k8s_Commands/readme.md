@@ -50,11 +50,7 @@ kubectl get services -o json
 # Describe a resource
 kubectl describe pod <pod-name>
 ```
-# Imperative Commands
-Explanation: Imperative commands allow quick actions without the need for manifest
-files. 
-https://kubernetes.io/docs/tasks/manage-kubernetes-objects/imperative-command/
-```
+
 # Create a Deployment imperatively
 kubectl create deployment redis-deploy --image=redis --replicas
 ```
