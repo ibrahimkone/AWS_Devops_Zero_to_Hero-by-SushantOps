@@ -16,7 +16,7 @@ az aks get-credentials --resource-group <resource-group> --name
 ### Connect to GKE
 gcloud container clusters get-credentials <cluster-name> --regio
 
-Kubernetes Deployment: 
+## Kubernetes Deployment: 
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment
 ```
 # Create a Deployment using Manifest file
