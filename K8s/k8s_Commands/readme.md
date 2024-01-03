@@ -110,7 +110,7 @@ kubectl top pods
 
 
 
-# [ kubectl reference  docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-deployment-em-)
+ [ kubectl reference  docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-deployment-em-)
 
-# [kubectl Cheat Sheet by Kubernetes](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+ [kubectl Cheat Sheet by Kubernetes](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
