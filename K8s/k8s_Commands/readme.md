@@ -78,15 +78,20 @@ kubectl scale deployment <deployment-name> --replicas=3
 # Kubectl Replace - Force
 ```
 # Replace and force update an object
+```
 kubectl replace --force -f <manifest_file>
 ```
 # Debugging Commands
 ```
 # Create a Deployment for debugging
+```
 kubectl create deployment debug-deploy --image=alpine
+```
 
 # View logs of a pod
+```
 kubectl logs <pod-name>
+```
 
 # Execute a command inside a container
 kubectl exec -it <pod-name> -- /bin/sh
@@ -94,9 +99,12 @@ kubectl exec -it <pod-name> -- /bin/sh
 # Logging and Monitoring Commands
 ```
 # View logs of a pod
+```
 kubectl logs <pod-name>
+```
 
 # Display Resource Usage (CPU and Memory) of Pods
+```
 kubectl top pods
 ```
 
