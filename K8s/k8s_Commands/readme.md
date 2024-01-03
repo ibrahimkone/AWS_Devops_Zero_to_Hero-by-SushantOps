@@ -124,6 +124,32 @@ kubectl delete: Delete resources by filenames, stdin, resources, and names, labe
 kubectl delete -f <filename.yaml>
 kubectl delete pod <pod-name>
 ```
+## Edit Resources:
+kubectl edit: Edit a resource in the default editor.
+```
+kubectl edit <resource-type> <resource-name>
+```
+## Get Information:
+kubectl get: Display one or many resources.
+```
+kubectl get pods
+kubectl get services
+```
+## Describe Resources:
+kubectl describe: Show detailed information about a resource.
+```
+kubectl describe pod <pod-name>
+```
+## Logs:
+kubectl logs: Print the logs from a container in a pod.
+```
+kubectl logs <pod-name>
+```
+## Port Forwarding:
+kubectl port-forward: Forward one or more local ports to a pod.
+```
+kubectl port-forward <pod-name> <local-port>:<pod-port>
+```
 
 
  [ kubectl reference  docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-deployment-em-)
