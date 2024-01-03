@@ -49,42 +49,15 @@ kubectl get services -o json
 # Kubectl Describe
 ```
 # Describe a resource
+```
 kubectl describe pod <pod-name>
-```
-
-# Create a Deployment imperatively
-kubectl create deployment redis-deploy --image=redis --replicas
-```
-# Kubectl Create Commands
-```
-# Create a Deployment with Redis image and 2 replicas
-kubectl create deployment redis-deploy --image=redis --replicas=2
-
-# Create an Nginx Deployment
-kubectl create deployment nginx-deploy --image=nginx
-```
-# Create a Pod
-```
-# Create a Pod
-kubectl run <pod-name> --image=<image-name>
-```
-# Edit Commands
-```
-# Edit a Deployment imperatively
-kubectl edit deployment <deployment-name>
-
-# Scale a Deployment imperatively
-kubectl scale deployment <deployment-name> --replicas=3
-```
-# Kubectl Replace - Force
 ```
 # Replace and force update an object
 ```
 kubectl replace --force -f <manifest_file>
 ```
 # Debugging Commands
-```
-# Create a Deployment for debugging
+## Create a Deployment for debugging
 ```
 kubectl create deployment debug-deploy --image=alpine
 ```
@@ -95,6 +68,7 @@ kubectl logs <pod-name>
 ```
 
 # Execute a command inside a container
+```
 kubectl exec -it <pod-name> -- /bin/sh
 ```
 # Logging and Monitoring Commands
@@ -102,6 +76,16 @@ kubectl exec -it <pod-name> -- /bin/sh
 # View logs of a pod
 ```
 kubectl logs <pod-name>
+```
+
+#  Imperative Commands in K8s :-
+
+## Create Resources:
+
+kubectl create: Create a resource from a file, URL, or literal value.
+```
+kubectl create -f <filename.yaml>
+kubectl create deployment <deployment-name> --image=<image-name
 ```
 
 
