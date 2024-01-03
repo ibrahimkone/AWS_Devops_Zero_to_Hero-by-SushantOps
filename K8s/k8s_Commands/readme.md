@@ -1,6 +1,3 @@
-# [ kubectl reference  docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-deployment-em-)
-
-# [kubectl Cheat Sheet by Kubernetes](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 # Get started with Minikube
 ```
@@ -109,4 +106,7 @@ kubectl top pods
 
 
 
+# [ kubectl reference  docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-deployment-em-)
+
+# [kubectl Cheat Sheet by Kubernetes](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
