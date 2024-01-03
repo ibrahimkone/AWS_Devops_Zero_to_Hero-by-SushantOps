@@ -38,11 +38,12 @@ kubectl get services
 kubectl get deployments
 ```
 # Different Options with GET Commands
+## Get information in YAML format
 ```
-# Get information in YAML format
 kubectl get pods -o yaml
-
-# Get information in JSON format
+```
+## Get information in JSON format
+```
 kubectl get services -o json
 ```
 # Kubectl Describe
