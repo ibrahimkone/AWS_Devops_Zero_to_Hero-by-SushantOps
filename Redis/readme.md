@@ -212,3 +212,4 @@ Below are the general steps to run Redis in Kubernetes using Helm:
   ```
 
 Remember to adapt these steps based on your specific requirements and the Redis Helm chart version you are using. Always refer to the official documentation for the Helm chart and Redis for the most accurate and up-to-date information.
+
