@@ -1044,3 +1044,5 @@ If the replicas are not scaling as expected, here are some things to check:
 
 By systematically checking these aspects, you can identify the reasons why the replicas are not scaling as expected and take appropriate corrective actions.
 
+## Q. how would you ensure that HA and scalability in EKS cluster?
+
