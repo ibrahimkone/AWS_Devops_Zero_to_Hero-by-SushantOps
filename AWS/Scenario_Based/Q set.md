@@ -6,9 +6,9 @@
 
 ## Q. Your web application is critacal and must have rebust DR plan with minimal downtime.How would you design a DR strategy in AWS? what serices and approchesh would you use to ensure high availability?
 
+## Q. You are responsible for ensuring that your AWS infra complies with industry security standards. What measure would you take to secure aws enviroment and maintain compliance?
 
-
-# Q3. Outline the steps to implement a disaster recovery plan for critical applications using AWS services.
+## Q3. Outline the steps to implement a disaster recovery plan for critical applications using AWS services.
 
 ## Q4. Which AWS services would you use to ensure low-latency communication and high availability for a real-time chat application?
 
