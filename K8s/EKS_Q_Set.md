@@ -4,4 +4,8 @@
 
 ## Q. How can you integrate grafana and prometheus with eks cluster?
 
+## Q.  How can you integrat amazon cloudwatch with EKS?
+
+## Q. How IAM role used in EKS for access control?
+
 ## Q. 
