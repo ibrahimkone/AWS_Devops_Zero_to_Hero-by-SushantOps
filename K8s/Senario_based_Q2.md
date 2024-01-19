@@ -1044,4 +1044,7 @@ If the replicas are not scaling as expected, here are some things to check:
 
 By systematically checking these aspects, you can identify the reasons why the replicas are not scaling as expected and take appropriate corrective actions.
 
+## You are tasked with deploying a new app on k8s cluster. The app should be highly available and scalable. How would you design the deployment, and what k8s resources would you used?
+
+## 
 
