@@ -46,4 +46,6 @@ aws s3 sync my-local-directory s3://my-bucket-name
 
 aws s3 mv s3://my-bucket-name/old-key s3://my-bucket-name/new-key  
  
- • Generate a pre-signed URL: aws s3 presign s3://my-bucket-name/my-file.txt 
+##  • Generate a pre-signed URL:   
+
+aws s3 presign s3://my-bucket-name/my-file.txt 
