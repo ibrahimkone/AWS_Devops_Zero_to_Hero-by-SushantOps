@@ -97,3 +97,5 @@ resource "aws_security_group" "dynamic_sg" {
 ```
 
 In the above example, we use a dynamic block to create ingress rules based on the security group name. The “count” attribute iterates over the “security_group_names” list, and for each element, we define the number of ingress rules based on the condition specified. This way, you can create dynamic security groups with varying ingress rules.
+
+
