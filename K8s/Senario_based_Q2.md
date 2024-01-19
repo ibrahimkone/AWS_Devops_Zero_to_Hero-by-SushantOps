@@ -1052,5 +1052,7 @@ By systematically checking these aspects, you can identify the reasons why the r
 
 ## Describe the steps would you take to secure a k8s cluster and ensure it complies with best practices of security?
 
+##  If k8s cluster experiance issues like pod failure or network issues, how would you go about troubleshooting and ensure quick recovery?
+
 ## 
 
