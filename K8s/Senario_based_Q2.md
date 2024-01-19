@@ -1046,5 +1046,11 @@ By systematically checking these aspects, you can identify the reasons why the r
 
 ## You are tasked with deploying a new app on k8s cluster. The app should be highly available and scalable. How would you design the deployment, and what k8s resources would you used?
 
+## Your application within k8s cluster should be communicates with other services and be accessible from outside the world. Explain how would you configure networking, service descovery and external access?
+
+## you need to deploy a stateful application on k8s like DBs that required persistent storeage. How would you ensure data persistance and manage staateful sets?
+
+## Describe the steps would you take to secure a k8s cluster and ensure it complies with best practices of security?
+
 ## 
 
