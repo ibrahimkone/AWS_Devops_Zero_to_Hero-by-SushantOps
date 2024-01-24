@@ -24,3 +24,8 @@
 ## we have 2 namespace,how  restrict user  access from one to another namespace?
 ## wt is cluster role in k8s?
 ## wt is RBAC IN K8S?
+## How to increase node in eks?
+## what is Sticky session
+## what is Jenkins shared library
+## Connection draining in load balancer
+## 
