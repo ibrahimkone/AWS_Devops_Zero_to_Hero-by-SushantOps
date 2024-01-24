@@ -4,11 +4,24 @@ To increase the number of nodes in an Amazon EKS (Elastic Kubernetes Service) cl
 ## what is Sticky session?
 Sticky sessions, also known as session affinity, refer to a mechanism in web server load balancing where a user's requests are consistently directed to the same server throughout their session. This is achieved by associating a user's initial connection with a specific server and then ensuring that subsequent requests from the same user are directed to that server. Sticky sessions are useful for applications that store session data on the server side, ensuring a seamless user experience by maintaining continuity in accessing session-related information, such as login credentials or shopping cart contents.
 
-## what is Jenkins shared library
+## what is Jenkins shared library?
+Jenkins shared library is a reusable and centralized set of Groovy code and resources that can be shared across multiple Jenkins pipelines. It allows organizations to define and manage common functions, methods, and workflows in a single codebase, promoting consistency and reusability in their Continuous Integration/Continuous Deployment (CI/CD) processes. Shared libraries simplify pipeline maintenance, encourage best practices, and facilitate collaboration among development teams by providing a standardized way to manage and version control shared code logic in Jenkins pipelines.
 
-## Connection draining in load balancer
+## Connection draining in load balancer?
+Connection draining in a load balancer is like allowing a graceful exit for a server that needs to be taken out of service. Imagine a busy restaurant where the chef is about to take a break. Instead of immediately turning away hungry customers, the restaurant manager allows the chef to finish cooking for current orders before closing the kitchen. Similarly, connection draining ensures that the load balancer doesn't abruptly stop sending new requests to a server that's being removed. Instead, it lets existing connections complete their tasks before fully redirecting new requests to other servers, preventing disruptions and ensuring a smoother transition during maintenance or scaling activities.
 
-## Routing polices in route53
+## Routing polices in route53?
+1. **Simple Routing:** Directs traffic to a single resource, such as an Amazon S3 bucket or an Elastic Load Balancer (ELB).
+
+2. **Weighted Routing:** Distributes traffic among multiple resources based on assigned weights. You can specify the percentage of traffic each resource receives.
+
+3. **Latency-Based Routing:** Routes traffic to the resource with the lowest latency from the end user's location. This is particularly useful for applications hosted in multiple AWS regions.
+
+4. **Failover Routing:** Diverts traffic to a backup resource if the primary one becomes unhealthy. It's commonly used for setting up active-passive architectures.
+
+5. **Geolocation Routing:** Directs traffic based on the geographic location of the end user. This allows you to customize content or direct users to specific servers based on their location.
+
+6. **Multivalue Answer Routing:** Returns multiple IP addresses for a domain, and Route 53 randomly chooses one. Useful for distributing traffic across multiple resources.
 
 ## What encryption method u used for s3 bucket
 
