@@ -23,9 +23,31 @@ Connection draining in a load balancer is like allowing a graceful exit for a se
 
 6. **Multivalue Answer Routing:** Returns multiple IP addresses for a domain, and Route 53 randomly chooses one. Useful for distributing traffic across multiple resources.
 
-## What encryption method u used for s3 bucket
+## What encryption method u used for s3 bucket?
+Amazon S3 provides several options for encrypting data at rest:
 
-## Auto scaling polices
+1. **Server-Side Encryption (SSE):**
+   - **SSE-S3:** Amazon S3 manages keys and performs encryption and decryption on your behalf.
+   - **SSE-KMS (Key Management Service):** You use AWS Key Management Service to manage keys used for encryption.
+
+2. **Client-Side Encryption:**
+   - You manage encryption and decryption processes on the client side, and S3 stores the encrypted data. The client application is responsible for managing encryption keys.
+
+3. **Bucket Policy and ACLs:**
+   - You can use S3 bucket policies and access control lists (ACLs) to control access to your buckets and objects.
+
+## Auto scaling polices?
+There are two main types of Auto Scaling policies:
+
+1. **Scale-Out Policy:**
+   - **Definition:** This policy defines the conditions under which new instances are added to the Auto Scaling group to handle increased load.
+   - **Metrics:** You set specific metrics (e.g., CPU utilization, network traffic) that trigger the scaling out action.
+   - **Action:** When a metric breaches a predefined threshold, Auto Scaling launches new instances to distribute the load.
+
+2. **Scale-In Policy:**
+   - **Definition:** This policy defines the conditions under which instances are removed from the Auto Scaling group to optimize resource usage during low demand.
+   - **Metrics:** Similar to scale-out policies, you set metrics that indicate when it's appropriate to scale in.
+   - **Action:** When a metric falls below a specified threshold, Auto Scaling terminates instances to reduce capacity.
 
 ## Work load in kubernates
 
